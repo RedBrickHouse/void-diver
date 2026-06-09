@@ -4,7 +4,7 @@ window.I18N = {
     navAbout:"About", navGameplay:"Gameplay", navFeatures:"Gameplay", navDivers:"Divers", navMedia:"Media", navRoadmap:"Roadmap", navNews:"News", navEvents:"Events", navWishlist:"Wishlist on Steam",
     heroPresents:"",
     heroTagline:"Dive. Explore. Escape.",
-    heroSub:"A co-op extraction action-RPG in HD-2D. Keep an antique shop called <strong>Valusha</strong>, send your divers into the dungeons of the abyss to recover the relics, and bring them home alive.",
+    heroSub:"A co-op extraction action-RPG in HD-2D. Keep an antique shop called <strong>Valusha</strong>, send your divers into the dungeons of the abyss for the relics buried there, and bring them home alive.",
     heroWishlist:"Wishlist on Steam", heroDiscord:"Join the Discord", heroTrailer:"Watch trailer",
     v2HeroBadge:"Steam Next Fest &middot; June 15&ndash;22",
     statWishlists:"Steam wishlists", statReview:"Very Positive (demo)", statCoopNum:"Up to 3", statCoop:"player co-op (PvE)",
@@ -115,7 +115,7 @@ window.I18N = {
   ja: {
     navAbout:"概要", navGameplay:"ゲームプレイ", navFeatures:"ゲームプレイ", navDivers:"ダイバー", navMedia:"スクリーンショット", navRoadmap:"ロードマップ", navNews:"ニュース", navEvents:"イベント", navWishlist:"Steamでウィッシュリスト",
     heroPresents:"",
-    heroTagline:"潜れ。探れ。脱出せよ。",
+    heroTagline:"潜れ。探れ。脱出しろ。",
     heroSub:"HD-2Dで描く協力エクストラクションアクションRPG。骨董品店「<strong>ヴァルーシャ</strong>」を切り盛りし、ダイバーを深淵のダンジョンへ送り込め。そこに眠る遺物を、生きて持ち帰るのだ。",
     heroWishlist:"Steamでウィッシュリスト", heroDiscord:"Discordに参加", heroTrailer:"トレーラーを見る",
     v2HeroBadge:"Steam Next Fest &middot; 6月15〜22日",
