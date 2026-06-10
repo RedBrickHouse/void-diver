@@ -11,6 +11,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--ink);color:var(--text);font-family:var(--fbody);font-size:17px;line-height:1.72;
   -webkit-font-smoothing:antialiased;overflow-x:hidden}
+html[lang="ko"] body{word-break:keep-all;overflow-wrap:break-word}
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 strong{color:#fff;font-weight:700}
