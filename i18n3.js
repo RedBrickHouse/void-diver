@@ -2,12 +2,12 @@
 (function () {
   var V3 = {
     en: {
-      v3TwoLabel:"Above &amp; below", v3TwoTitle:"Two worlds, one loop",
+      v3TwoLabel:"Above &amp; below", v3TwoTitle:"Two worlds at once",
       v3TwoSub:"Run a shop on the surface. Send divers into the abyss below. One feeds the other.",
-      v3ShopKicker:"Above", v3ShopTitle:"The shop",
-      v3ShopDesc:"BALUSHA sits on the surface. Display your relics, hire clerks, and haggle with VIPs &mdash; the takings bankroll your next descent.",
-      v3AbyssKicker:"Below", v3AbyssTitle:"The dive",
-      v3AbyssDesc:"The abyss waits beneath. Send divers into ever-changing dungeons, face what lurks there, and bring the relics back alive.",
+      v3ShopKicker:"Above", v3ShopTitle:"The Shop",
+      v3ShopDesc:"Manage BALUSHA on the surface: display relics, hire clerks, and haggle with VIPs to fund your next descent.",
+      v3AbyssKicker:"Below", v3AbyssTitle:"The Dive",
+      v3AbyssDesc:"Dive into the Abyss beneath: send divers into dungeons, face monsters, and escape alive with your loot.",
       v3ThreatLabel:"Dungeon threats", v3ThreatTitle:"Monsters of the abyss",
       v3ThreatDesc:"Mimics that pose as chests, vicious elite monsters, and multi-phase bosses like the Soul Collector wait throughout the dungeons.",
       v3HeroScroll:"Begin the descent",
@@ -21,7 +21,7 @@
       v3AbyssKicker:"심연", v3AbyssTitle:"다이브",
       v3AbyssDesc:"그 아래에는 심연이 기다립니다. 들어갈 때마다 구조가 달라지는 던전에 다이버를 보내, 괴물과 함정을 돌파하고 유물을 회수해 무사히 탈출하세요.",
       v3ThreatLabel:"던전의 위협", v3ThreatTitle:"심연의 몬스터들",
-      v3ThreatDesc:"상자로 둔갑한 미믹, 사나운 엘리트 몬스터, 그리고 '소울 콜렉터' 같은 다단계 보스가 던전 곳곳에서 기다립니다.",
+      v3ThreatDesc:"보물상자로 위장한 미믹, 강력한 엘리트 몬스터, 그리고 독특한 패턴을 가진 보스들이 심연 곳곳에서 당신을 기다립니다.",
       v3HeroScroll:"심연으로",
       footFine:"VOID DIVER 및 모든 아트워크·캐릭터·상표는 Nemo Studio / LoadComplete의 자산입니다."
     },
