@@ -99,4 +99,48 @@
     else if (e.key === "ArrowLeft") show(idx - 1);
     else if (e.key === "ArrowRight") show(idx + 1);
   });
+
+  // ---- SONAR: 좌측 수심계 (스크롤 진행 0~999m + 클릭/드래그로 이동) ----
+  var sonar = document.getElementById("sonar");
+  if (sonar) {
+    var sFill = document.getElementById("sonarFill");
+    var sBob = document.getElementById("sonarBob");
+    var sNum = document.getElementById("sonarNum");
+    var sTrack = document.getElementById("sonarTrack");
+    var sLast = -1;
+    function sonarUpdate() {
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      var p = max > 0 ? Math.min(1, Math.max(0, (window.scrollY || window.pageYOffset) / max)) : 0;
+      var pct = (p * 100).toFixed(2) + "%";
+      if (sFill) sFill.style.height = pct;
+      if (sBob) sBob.style.top = pct;
+      var d = Math.round(p * 999);
+      if (d !== sLast) { sLast = d; if (sNum) sNum.textContent = d; }
+    }
+    window.addEventListener("scroll", sonarUpdate, { passive: true });
+    window.addEventListener("resize", sonarUpdate, { passive: true });
+    sonarUpdate();
+    function sonarSeek(clientY) {
+      if (!sTrack) return;
+      var r = sTrack.getBoundingClientRect();
+      if (r.height <= 0) return;
+      var p = Math.min(1, Math.max(0, (clientY - r.top) / r.height));
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      window.scrollTo({ top: Math.round(p * max) });
+    }
+    var sDrag = false;
+    sonar.addEventListener("mousedown", function (e) { sDrag = true; sonarSeek(e.clientY); e.preventDefault(); });
+    window.addEventListener("mousemove", function (e) { if (sDrag) sonarSeek(e.clientY); });
+    window.addEventListener("mouseup", function () { sDrag = false; });
+    sonar.addEventListener("touchstart", function (e) { if (e.touches[0]) sonarSeek(e.touches[0].clientY); }, { passive: true });
+    sonar.addEventListener("touchmove", function (e) { if (e.touches[0]) sonarSeek(e.touches[0].clientY); }, { passive: true });
+  }
+
+  // ---- VOICES: 자동 흐름 마퀴 (카드 한 벌 복제로 seamless 루프, hover 시 멈춤은 CSS) ----
+  var vRail = document.getElementById("voicesRail");
+  if (vRail && !reduce) {
+    Array.prototype.slice.call(vRail.children).forEach(function (c) {
+      var cl = c.cloneNode(true); cl.setAttribute("aria-hidden", "true"); vRail.appendChild(cl);
+    });
+  }
 })();
