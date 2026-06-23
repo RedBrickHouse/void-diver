@@ -13,11 +13,11 @@
       v3HeroScroll:"Begin the descent",
       vcKicker:"What divers say", vcTitle:"Divers who played the demo",
       vcLead:"What demo playtesters had to say.", vcMeta:"Demo playtester",
-      vc1:"Going all the way down with three friends feels unreal. One run never ends as one run.", vc1n:"Co-op Veteran",
-      vc2:"Reached for a chest and a mimic got me. I&rsquo;ve suspected every chest since.", vc2n:"Relic Hunter",
-      vc3:"The dungeon changes every time, so memorized routes don&rsquo;t work. Every dive feels brand new.", vc3n:"Abyss Regular",
-      vc4:"Diving is great, but running the shop up top is surprisingly fun. Two games in one.", vc4n:"Shopkeeper",
-      vc5:"The boss remakes the arena each time it falls. Surviving the last phase and grabbing the relic was a rush.", vc5n:"Collector Slayer",
+      vc1:"Going all the way down with three friends feels unreal. One run never ends as one run.", vc1n:"Volt",
+      vc2:"Reached for a chest and a mimic got me. I&rsquo;ve suspected every chest since.", vc2n:"naptime",
+      vc3:"The dungeon changes every time, so memorized routes don&rsquo;t work. Every dive feels brand new.", vc3n:"Mara99",
+      vc4:"Diving is great, but running the shop up top is surprisingly fun. Two games in one.", vc4n:"tincan",
+      vc5:"The boss remakes the arena each time it falls. Surviving the last phase and grabbing the relic was a rush.", vc5n:"Jonas_K",
       footFine:"VOID DIVER and all artwork, characters and trademarks belong to Nemo Studio / LoadComplete."
     },
     ko: {
@@ -32,11 +32,11 @@
       v3HeroScroll:"심연으로",
       vcKicker:"다이버들의 한마디", vcTitle:"데모를 플레이한 다이버들",
       vcLead:"데모를 플레이한 분들이 남긴 후기입니다.", vcMeta:"데모 플레이테스터",
-      vc1:"친구 셋이서 끝까지 내려가는 손맛이 미쳤어요. 한 판이 한 판으로 안 끝납니다.", vc1n:"코옵_장인",
-      vc2:"상자인 줄 알고 손 댔다가 미믹한테 당했네요. 그 뒤로 모든 상자를 의심합니다.", vc2n:"유물_사냥꾼",
-      vc3:"던전이 매번 바뀌니까 외운 길이 통하질 않아요. 매 다이브가 새 판처럼 긴장됩니다.", vc3n:"심연_단골",
-      vc4:"내려가는 것도 좋지만 지상에서 가게 꾸리는 재미가 의외로 큽니다. 두 게임을 한 번에.", vc4n:"발루샤_점장",
-      vc5:"보스가 죽을 때마다 전장을 새로 짜요. 마지막 페이즈 버텨내고 유물 들었을 때 짜릿했습니다.", vc5n:"콜렉터_헌터",
+      vc1:"친구 셋이서 끝까지 내려가는 손맛이 미쳤어요. 한 판이 한 판으로 안 끝납니다.", vc1n:"Volt",
+      vc2:"상자인 줄 알고 손 댔다가 미믹한테 당했네요. 그 뒤로 모든 상자를 의심합니다.", vc2n:"naptime",
+      vc3:"던전이 매번 바뀌니까 외운 길이 통하질 않아요. 매 다이브가 새 판처럼 긴장됩니다.", vc3n:"Mara99",
+      vc4:"내려가는 것도 좋지만 지상에서 가게 꾸리는 재미가 의외로 큽니다. 두 게임을 한 번에.", vc4n:"tincan",
+      vc5:"보스가 죽을 때마다 전장을 새로 짜요. 마지막 페이즈 버텨내고 유물 들었을 때 짜릿했습니다.", vc5n:"Jonas_K",
       footFine:"VOID DIVER 및 모든 아트워크·캐릭터·상표는 Nemo Studio / LoadComplete의 자산입니다."
     },
     ja: {
@@ -51,11 +51,11 @@
       v3HeroScroll:"深淵へ",
       vcKicker:"ダイバーたちの声", vcTitle:"体験版をプレイしたダイバーたち",
       vcLead:"体験版をプレイした方々の声です。", vcMeta:"体験版プレイテスター",
-      vc1:"友達3人で最後まで潜る手応えがやばいです。1回が1回で終わりません。", vc1n:"協力の達人",
-      vc2:"宝箱だと思って手を出したらミミックにやられました。それ以来すべての宝箱を疑っています。", vc2n:"遺物ハンター",
-      vc3:"ダンジョンが毎回変わるので覚えた道が通用しません。毎回の潜行が新しい一戦のように緊張します。", vc3n:"深淵の常連",
-      vc4:"潜るのもいいですが、地上で店を切り盛りする楽しさが意外と大きい。二つのゲームを一度に。", vc4n:"BALUSHA店長",
-      vc5:"ボスが倒れるたびに戦場を作り直します。最終フェーズを耐えて遺物を手にした時は最高でした。", vc5n:"コレクター狩り",
+      vc1:"友達3人で最後まで潜る手応えがやばいです。1回が1回で終わりません。", vc1n:"Volt",
+      vc2:"宝箱だと思って手を出したらミミックにやられました。それ以来すべての宝箱を疑っています。", vc2n:"naptime",
+      vc3:"ダンジョンが毎回変わるので覚えた道が通用しません。毎回の潜行が新しい一戦のように緊張します。", vc3n:"Mara99",
+      vc4:"潜るのもいいですが、地上で店を切り盛りする楽しさが意外と大きい。二つのゲームを一度に。", vc4n:"tincan",
+      vc5:"ボスが倒れるたびに戦場を作り直します。最終フェーズを耐えて遺物を手にした時は最高でした。", vc5n:"Jonas_K",
       footFine:"『VOID DIVER』および全てのアートワーク・キャラクター・商標はNemo Studio / LoadCompleteに帰属します。"
     },
     zh: {
@@ -70,11 +70,11 @@
       v3HeroScroll:"潜入深渊",
       vcKicker:"潜者们的一句话", vcTitle:"玩过试玩的潜者们",
       vcLead:"试玩玩家们的留言。", vcMeta:"试玩测试者",
-      vc1:"和三个朋友一起潜到底的手感太爽了。一局根本停不下来。", vc1n:"合作老手",
-      vc2:"以为是宝箱伸手就被拟态怪偷袭了。从那以后我怀疑每一个宝箱。", vc2n:"遗物猎人",
-      vc3:"地牢每次都在变，记下的路根本没用。每次下潜都像全新一局般紧张。", vc3n:"深渊常客",
-      vc4:"下潜很棒，但在地上经营店铺意外地有意思。两个游戏一次玩到。", vc4n:"BALUSHA店长",
-      vc5:"Boss每次倒下都会重塑战场。熬过最后阶段拿到遗物的那一刻太过瘾了。", vc5n:"收集者猎手",
+      vc1:"和三个朋友一起潜到底的手感太爽了。一局根本停不下来。", vc1n:"Volt",
+      vc2:"以为是宝箱伸手就被拟态怪偷袭了。从那以后我怀疑每一个宝箱。", vc2n:"naptime",
+      vc3:"地牢每次都在变，记下的路根本没用。每次下潜都像全新一局般紧张。", vc3n:"Mara99",
+      vc4:"下潜很棒，但在地上经营店铺意外地有意思。两个游戏一次玩到。", vc4n:"tincan",
+      vc5:"Boss每次倒下都会重塑战场。熬过最后阶段拿到遗物的那一刻太过瘾了。", vc5n:"Jonas_K",
       footFine:"《VOID DIVER》及所有美术、角色与商标均归 Nemo Studio / LoadComplete 所有。"
     }
   };
