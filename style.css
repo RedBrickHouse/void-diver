@@ -68,11 +68,6 @@ h3{font-family:var(--fdisp);font-weight:600;font-size:22px;margin:0 0 10px;lette
   rgba(5,7,10,.26)}
 .hero-glow{position:absolute;inset:0;background:radial-gradient(40% 30% at 50% 64%,rgba(79,214,207,.16),transparent 70%);pointer-events:none}
 .hero-inner{position:relative;max-width:900px;padding:120px 26px 90px}
-.hero-badge{display:inline-flex;align-items:center;gap:9px;font-family:var(--fbody);font-weight:700;font-size:12px;
-  letter-spacing:.14em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(79,214,207,.36);
-  border-radius:999px;padding:7px 16px;margin-bottom:28px;background:rgba(79,214,207,.06)}
-.hero-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan);animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 .hero-logo{width:min(600px,88%);margin:0 auto 6px;filter:drop-shadow(0 14px 40px rgba(0,0,0,.8))}
 .hero-tagline{font-family:var(--fdisp);text-transform:uppercase;letter-spacing:.24em;font-weight:600;
   font-size:clamp(15px,2.2vw,22px);color:var(--cyan);margin:12px 0 18px}
@@ -255,7 +250,7 @@ h3{font-family:var(--fdisp);font-weight:600;font-size:22px;margin:0 0 10px;lette
 }
 @media(prefers-reduced-motion:reduce){
   .reveal{opacity:1;transform:none;transition:none}
-  .grain,.hero-scroll::after,.hero-badge .dot{animation:none}
+  .grain,.hero-scroll::after{animation:none}
   html{scroll-behavior:auto}
 }
 /* small-phone hero fit */
