@@ -198,7 +198,9 @@ h3{font-family:var(--fdisp);font-weight:600;font-size:22px;margin:0 0 10px;lette
 .foot{background:#04060a;border-top:1px solid var(--line);padding:58px 0 34px}
 .partners{display:flex;align-items:center;justify-content:center;gap:24px;padding-bottom:30px;margin-bottom:34px;border-bottom:1px solid var(--line)}
 .p-logo{height:38px;width:auto}
-.p-sep{width:1px;height:32px;background:var(--line2,rgba(255,255,255,.25))}
+.p-sep{width:1px;height:54px;background:var(--line2,rgba(255,255,255,.25))}
+.partner{display:flex;flex-direction:column;align-items:center;gap:9px;text-decoration:none}
+.p-cap{font-family:var(--fui,sans-serif);font-size:11px;letter-spacing:0;color:var(--muted);white-space:nowrap}
 .p-dev{font-family:var(--fdisp);text-transform:uppercase;letter-spacing:.14em;font-size:14px;color:#dfe6e4}
 @media (max-width:600px){.partners{gap:16px}.p-logo{height:30px}.p-dev{font-size:12px;letter-spacing:.1em}}
 .foot-inner{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;flex-wrap:wrap}
@@ -294,3 +296,5 @@ h3{font-family:var(--fdisp);font-weight:600;font-size:22px;margin:0 0 10px;lette
 .sonar:hover .sonar-bob{box-shadow:0 0 16px var(--cyan)}
 @media(max-width:1100px){.sonar{display:none}}
 @media(max-width:760px){.voices-rail{animation-duration:42s}.vcard{flex-basis:80vw;max-width:340px}}
+
+@media (max-width:600px){.partners{flex-direction:column;gap:14px}.p-sep{width:64px;height:1px}.p-cap{white-space:normal;text-align:center}}
